@@ -13,8 +13,6 @@ namespace sNpViewer
     {
         public Form1()
         {
-            
-            this.Icon = new Icon(Path.Combine(Directory.GetCurrentDirectory(), "sNpViewerICON.ico"));
             this.Text = "sNpViewer";
             this.Size = new Size(800, 800);
             this.MaximizeBox = false;

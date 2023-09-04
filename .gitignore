@@ -175,8 +175,7 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
-# OS generated files #
-Icon?
+# OS generated files #i
 
 # Mac desktop service store files
 .DS_Store

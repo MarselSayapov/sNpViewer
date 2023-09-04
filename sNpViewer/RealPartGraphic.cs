@@ -12,7 +12,6 @@ namespace sNpViewer
         private OxyPlot.WindowsForms.PlotView _realPartPlotViev;
         public RealPartGraphic(string data)
         {
-            this.Icon = new Icon(Path.Combine(Directory.GetCurrentDirectory(), "sNpViewerICON.ico"));
             var lines = 0;
             using (StreamReader reader = new StreamReader(data))
             {

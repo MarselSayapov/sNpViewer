@@ -58,14 +58,5 @@ namespace sNpViewer.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to sNpViewerICON.ico.
-        /// </summary>
-        internal static string icon {
-            get {
-                return ResourceManager.GetString("icon", resourceCulture);
-            }
-        }
     }
 }

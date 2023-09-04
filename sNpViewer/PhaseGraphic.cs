@@ -15,7 +15,6 @@ namespace sNpViewer
         private readonly OxyPlot.WindowsForms.PlotView _phasePlotView;
         public PhaseGraphic(string data)
         {
-            this.Icon = new Icon(Path.Combine(Directory.GetCurrentDirectory(), "sNpViewerICON.ico"));
             var lines = 0;
             using (StreamReader reader = new StreamReader(data))
             {

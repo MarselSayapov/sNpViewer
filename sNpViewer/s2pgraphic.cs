@@ -8,7 +8,6 @@ namespace sNpViewer
     {
         public S2Pgraphic(string data)
         {
-            this.Icon = new Icon(Path.Combine(Directory.GetCurrentDirectory(), "sNpViewerICON.ico"));
             var label = new Label
             {
                 Text = @"Select the desired type of graph to build:",
